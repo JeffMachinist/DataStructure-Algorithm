@@ -1,4 +1,5 @@
-#include "tree_redblack.h"
+#define USE_RED_BLACK_TREE
+#include "tree.h"
 #include <stdlib.h>
 #include "fatal.h"
 

@@ -1,6 +1,7 @@
-        #include "adt_cursor.h"
         #include <stdlib.h>
         #include "fatal.h"
+        #define USE_CURSOR_LIST
+        #include "adt_list.h"
 
         /* Place in the interface file */
         struct Node

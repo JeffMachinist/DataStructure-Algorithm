@@ -1,4 +1,5 @@
-        #include "heap_binomial.h"
+        #define USE_BINOMIAL_HEAP
+        #include "heap.h"
         #include "fatal.h"
 
 

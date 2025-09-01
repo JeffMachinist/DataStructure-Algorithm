@@ -1,4 +1,5 @@
-#include "tree_treap.h"
+#define USE_TREAP
+#include "tree.h"
 #include <stdlib.h>
 #include "fatal.h"
 

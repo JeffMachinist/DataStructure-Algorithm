@@ -1,4 +1,5 @@
-#include "tree_aa.h"
+#define USE_AA_TREE
+#include "tree.h"
 #include <stdlib.h>
 #include "fatal.h"
 

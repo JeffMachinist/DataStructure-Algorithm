@@ -1,5 +1,5 @@
        #include "fatal.h"
-       #include "hash_separate_chaining.h"
+       #include "hash_table.h"
        #include <stdlib.h>
        
        #define MinTableSize (10)

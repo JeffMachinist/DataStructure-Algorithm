@@ -1,4 +1,5 @@
-        #include "heap_bin.h"
+        #define USE_BIN_HEAP
+        #include "heap.h"
         #include "fatal.h"
         #include <stdlib.h>
 

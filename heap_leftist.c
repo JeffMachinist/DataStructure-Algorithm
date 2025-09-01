@@ -1,4 +1,5 @@
-        #include "heap_leftist.h"
+        #define USE_LEFTIST_HEAP
+        #include "heap.h"
         #include "fatal.h"
         #include <stdlib.h>
 

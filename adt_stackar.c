@@ -1,6 +1,7 @@
-        #include "adt_stackar.h"
-        #include "fatal.h"
-        #include <stdlib.h>
+#include "fatal.h"
+#include <stdlib.h>
+#define USE_ARRAY_STACK
+#include "adt_stack.h"
 
         #define EmptyTOS ( -1 )
         #define MinStackSize ( 5 )
