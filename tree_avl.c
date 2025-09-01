@@ -1,4 +1,5 @@
-        #include "tree_avl.h"
+        #define USE_AVL_TREE
+        #include "tree.h"
         #include <stdlib.h>
         #include "fatal.h"
 

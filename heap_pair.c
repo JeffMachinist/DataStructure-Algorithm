@@ -1,4 +1,5 @@
-        #include "heap_pair.h"
+        #define USE_PAIRING_HEAP
+        #include "heap.h"
         #include "fatal.h"
         #include <stdlib.h>
 

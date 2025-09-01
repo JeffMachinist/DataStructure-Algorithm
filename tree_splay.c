@@ -1,4 +1,5 @@
-        #include "tree_splay.h"
+        #define USE_SPLAY_TREE
+        #include "tree.h"
         #include <stdlib.h>
         #include "fatal.h"
         
