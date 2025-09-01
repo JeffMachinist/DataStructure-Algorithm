@@ -1,5 +1,5 @@
         #include "fatal.h"
-        #include "hashquad.h"
+        #include "hash_quadratic_probing.h"
         #include <stdlib.h>
         
         #define MinTableSize (10)

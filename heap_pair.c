@@ -1,4 +1,4 @@
-        #include "pairheap.h"
+        #include "heap_pair.h"
         #include "fatal.h"
         #include <stdlib.h>
 

@@ -1,4 +1,4 @@
-        #include "splay.h"
+        #include "tree_splay.h"
         #include <stdlib.h>
         #include "fatal.h"
         

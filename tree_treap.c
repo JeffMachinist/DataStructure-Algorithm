@@ -1,4 +1,4 @@
-#include "treap.h"
+#include "tree_treap.h"
 #include <stdlib.h>
 #include "fatal.h"
 
