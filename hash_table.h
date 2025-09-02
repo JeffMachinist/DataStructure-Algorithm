@@ -1,5 +1,6 @@
 #ifndef _HASH_TABLE_COMMON_H
 #define _HASH_TABLE_COMMON_H
+
 typedef int ElementType;
 typedef unsigned int Index;
 
@@ -15,8 +16,8 @@ typedef struct HashTbl *HashTable;
 
 HashTable InitializeTable( int TableSize );
 void DestroyTable( HashTable H );
-Position Find( ElementType Key, HashTable H );
 void Insert( ElementType Key, HashTable H );
+Position Find( ElementType Key, HashTable H );
 
 #ifdef USE_QUADRATIC_PROBING
 ElementType Retrieve( Position P, HashTable H );

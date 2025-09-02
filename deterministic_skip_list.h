@@ -11,13 +11,13 @@
         typedef struct SkipNode *Position;
         typedef struct SkipNode *SkipList;
 
+        SkipList Initialize( void );
         SkipList MakeEmpty( SkipList L );
+        SkipList Insert( ElementType X, SkipList L );
         Position Find( ElementType X, SkipList L );
         Position FindMin( SkipList L );
         Position FindMax( SkipList L );
-        SkipList Initialize( void );
-        SkipList Insert( ElementType X, SkipList L );
-        SkipList Remove( ElementType X, SkipList L );
+        SkipList Delete( ElementType X, SkipList L );
         ElementType Retrieve( Position P );
 
         #endif  /* _SkipList_H */

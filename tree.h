@@ -47,13 +47,13 @@ typedef int ElementType;
 #endif
 
 // 通用接口声明
+SearchTree Initialize(void); // 某些树有Initialize
 SearchTree MakeEmpty(SearchTree T);
+SearchTree Insert(ElementType X, SearchTree T);
 Position Find(ElementType X, SearchTree T);
 Position FindMin(SearchTree T);
 Position FindMax(SearchTree T);
-SearchTree Insert(ElementType X, SearchTree T);
 SearchTree Delete(ElementType X, SearchTree T);
-SearchTree Initialize(void); // 某些树有Initialize
 ElementType Retrieve(SearchTree T); // Splay树获取根节点
 
 #ifdef USE_RED_BLACK_TREE

@@ -159,7 +159,7 @@
 /* END */
 
         SkipList
-        Remove( ElementType Item, SkipList L )
+        Delete( ElementType Item, SkipList L )
         {
             printf( "Remove is unimplemented\n" );
             if( Item )
