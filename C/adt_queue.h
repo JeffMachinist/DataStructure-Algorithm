@@ -1,5 +1,4 @@
         typedef int ElementType;
-/* START: fig3_57.txt */
         #ifndef _Queue_h
         #define _Queue_h
 
@@ -16,5 +15,4 @@
         void Dequeue( Queue Q );
         ElementType FrontAndDequeue( Queue Q );
 
-        #endif  /* _Queue_h */
-/* END */
+        #endif  
